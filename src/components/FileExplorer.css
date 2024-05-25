@@ -1,0 +1,36 @@
+/* src/components/FileExplorer.css */
+.file-node {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.file-node.file {
+  margin-left: 20px;
+}
+
+.file-node.selected {
+  background-color: #cce5ff;
+}
+
+.file-children {
+  margin-left: 20px;
+}
+
+.context-menu {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  list-style: none;
+  padding: 5px 0;
+  margin: 0;
+}
+
+.context-menu li {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.context-menu li:hover {
+  background: #f1f1f1;
+}
